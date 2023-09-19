@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;700&display=swap');
+body{
+    background-color: white;
+
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'inter', sans-serif;
+   }
+  .class-content{
+    display: flex;
+    justify-content: space-between;
+  }
+.root{
+  --dark-slate-grey:hsl(234, 29%, 20%);
+  --charcoal-grey:hsl(235,18%,26%);
+  --grey:hsl(231,7%,60%);
+  --white:hsl(0,0%,100%);
+
+}
+h1{
+  margin-left: 7%;
+  margin-top: 10%;
+  font-size: 2.3rem;
+  color: var(--charcoal-grey);
+}
+.join{
+  margin-left: 7%;
+  margin-top: 5%;
+font-size: 1.1rem;
+}
+.list{
+  margin-top: 5%;
+}
+.list .line{
+  display: flex;
+  margin-bottom: 7%;
+  margin-left: 7%;
+}
+.list p{
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 1.1rem;
+}
+h4{
+  margin-left: 6%;
+}
+a.button{
+  width: 20rem;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 6%;
+  margin-top: 6%;
+  background: var(--white);
+  text-decoration: none;
+  text-align: center;
+}
+a.button:hover{
+  background: linear-gradient(145deg,rgb(255, 102, 255),orangered );
+}
+.input .email:hover{
+  color: black;
+}
+.text-center{
+   background-color: black;
+   color: white;
+   padding: 3% 12%;
+   border-radius: 1rem;
+   margin-bottom: 50px;
+}
+.successful{
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 2px;
+}
+@media (min-width:390px){
+  .image img:nth-child(2){
+    width:100%;
+    display: block;
+    margin-left:220%;
+  }
+}
+image img:nth-child(1){
+  display: none;
+}
+section{
+  width:800px;
+  height: 550px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: var(--dark-slate-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

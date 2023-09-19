@@ -75,6 +75,21 @@ a.button:hover {
 }
 .input .email:hover {
   color: black;
+  cursor: pointer;
+}
+.error-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.error{
+  color: red;
+  margin-right: 5px;
+}
+.error-input {
+  background-color: red;
+  color: red;
+  border: 2px solid red;
 }
 @media (min-width: 430px) {
   .image img:nth-child(2) {
